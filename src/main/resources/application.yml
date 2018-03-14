@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+    password: 1111
+server:
+  port: 8673
+mybatis-plus:
+  mapper-locations: classpath*:org/giveu/springcloud/mjf/provider/mapper/mappings/*.xml
+  typeAliasesPackage: org.giveu.springcloud.mjf.provider.model
