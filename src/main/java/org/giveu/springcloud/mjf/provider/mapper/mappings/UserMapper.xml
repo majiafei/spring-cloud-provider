@@ -5,5 +5,4 @@
 	<select id="findUsers" resultType="User">
 		select * from user;
 	</select>
-
 </mapper>
