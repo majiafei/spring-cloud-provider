@@ -4,8 +4,17 @@ spring:
     url: jdbc:mysql://localhost:3306/world
     username: root
     password: 1111
+  mvc:
+    view:
+      prefix: /WEB-INF/view
 server:
   port: 8673
 mybatis-plus:
   mapper-locations: classpath*:org/giveu/springcloud/mjf/provider/mapper/mappings/*.xml
   typeAliasesPackage: org.giveu.springcloud.mjf.provider.model
+  
+  
+################### logback配置文件路径   ###################
+logging: 
+  config: classpath:logback-spring.xml
+  
