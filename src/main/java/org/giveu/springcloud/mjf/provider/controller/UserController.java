@@ -22,6 +22,7 @@ public class UserController {
 	@Value("${spring.mvc.view.prefix}")
 	private String prefix;
 	@RequestMapping("/hello")
+	
 	@ResponseBody
 	public List<User> hello(){
 		List<User> findUsers = userMapper.findUsers();
