@@ -14,5 +14,7 @@ public class SpringCloudProvier {
 		SpringApplication.run(SpringCloudProvier.class, args);
 		logger.info("SpringCloudProvier start success");
 	}
+	
+	
 
 }
