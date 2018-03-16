@@ -2011,6 +2011,7 @@ org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean def
 2018-03-16 15:17:08.213 INFO  [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8673 (http)
 2018-03-16 15:17:08.214 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:57 - Started SpringCloudProvier in 0.758 seconds (JVM running for 283.116)
 2018-03-16 15:17:08.215 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:15 - SpringCloudProvier start success
+<<<<<<< HEAD
 2018-03-16 15:18:33.947 INFO  [Thread-14] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43e59ebd: startup date [Fri Mar 16 15:17:07 CST 2018]; root of context hierarchy
 2018-03-16 15:18:33.948 INFO  [Thread-14] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
 2018-03-16 15:18:33.948 INFO  [Thread-14] o.s.j.e.a.AnnotationMBeanExporter:241 - Unregistering JMX-exposed beans
@@ -2260,3 +2261,125 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2018-03-16 15:20:15.126 INFO  [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8673 (http)
 2018-03-16 15:20:15.127 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:57 - Started SpringCloudProvier in 0.55 seconds (JVM running for 470.022)
 2018-03-16 15:20:15.127 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:15 - SpringCloudProvier start success
+=======
+>>>>>>> branch 'dev' of https://github.com/majiafei/spring-cloud-provider.git
+2018-03-16 15:23:29.124 INFO  [Thread-32] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4cbf7fe6: startup date [Fri Mar 16 15:20:14 CST 2018]; root of context hierarchy
+2018-03-16 15:23:29.125 INFO  [Thread-32] o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2018-03-16 15:23:29.125 INFO  [Thread-32] o.s.j.e.a.AnnotationMBeanExporter:241 - Unregistering JMX-exposed beans
+2018-03-16 15:23:29.345 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:48 - Starting SpringCloudProvier on PC527707 with PID 24800 (E:\java_code1\spring\spring-cloud-provider\target\classes started by 527707 in E:\java_code1\spring\spring-cloud-provider)
+2018-03-16 15:23:29.345 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:593 - No active profile set, falling back to default profiles: default
+2018-03-16 15:23:29.347 INFO  [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53596bbe: startup date [Fri Mar 16 15:23:29 CST 2018]; root of context hierarchy
+2018-03-16 15:23:29.492 INFO  [restartedMain] o.s.b.f.s.DefaultListableBeanFactory:828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Generic bean: class [org.giveu.springcloud.mjf.provider.config.DataSource]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\java_code1\spring\spring-cloud-provider\target\classes\org\giveu\springcloud\mjf\provider\config\DataSource.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSource; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/giveu/springcloud/mjf/provider/config/DataSource.class]]
+2018-03-16 15:23:29.508 INFO  [restartedMain] o.s.b.f.s.DefaultListableBeanFactory:828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSource; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/giveu/springcloud/mjf/provider/config/DataSource.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]]
+2018-03-16 15:23:29.569 INFO  [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8673 (http)
+2018-03-16 15:23:29.569 INFO  [restartedMain] o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2018-03-16 15:23:29.570 INFO  [restartedMain] o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-03-16 15:23:29.576 INFO  [localhost-startStop-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2018-03-16 15:23:29.577 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 230 ms
+2018-03-16 15:23:29.598 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 15:23:29.599 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-16 15:23:29.730 WARN  [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [E:\java_code1\spring\spring-cloud-provider\target\classes\org\giveu\springcloud\mjf\provider\controller\UserController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.giveu.springcloud.mjf.provider.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+	Invalid character constant
+	of cannot be resolved to a type
+
+2018-03-16 15:23:29.730 INFO  [restartedMain] o.a.catalina.core.StandardService:179 - Stopping service [Tomcat]
+2018-03-16 15:23:29.735 INFO  [restartedMain] o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-16 15:23:29.736 ERROR [restartedMain] o.s.boot.SpringApplication:771 - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [E:\java_code1\spring\spring-cloud-provider\target\classes\org\giveu\springcloud\mjf\provider\controller\UserController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.giveu.springcloud.mjf.provider.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+	Invalid character constant
+	of cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at org.giveu.springcloud.mjf.provider.SpringCloudProvier.main(SpringCloudProvier.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.giveu.springcloud.mjf.provider.controller.UserController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+	Invalid character constant
+	of cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+	Invalid character constant
+	of cannot be resolved to a type
+
+	at org.giveu.springcloud.mjf.provider.controller.UserController.<init>(UserController.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 24 common frames omitted
+2018-03-16 15:23:40.241 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:48 - Starting SpringCloudProvier on PC527707 with PID 24800 (E:\java_code1\spring\spring-cloud-provider\target\classes started by 527707 in E:\java_code1\spring\spring-cloud-provider)
+2018-03-16 15:23:40.241 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:593 - No active profile set, falling back to default profiles: default
+2018-03-16 15:23:40.243 INFO  [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@250e9293: startup date [Fri Mar 16 15:23:40 CST 2018]; root of context hierarchy
+2018-03-16 15:23:40.380 INFO  [restartedMain] o.s.b.f.s.DefaultListableBeanFactory:828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Generic bean: class [org.giveu.springcloud.mjf.provider.config.DataSource]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\java_code1\spring\spring-cloud-provider\target\classes\org\giveu\springcloud\mjf\provider\config\DataSource.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSource; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/giveu/springcloud/mjf/provider/config/DataSource.class]]
+2018-03-16 15:23:40.394 INFO  [restartedMain] o.s.b.f.s.DefaultListableBeanFactory:828 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=dataSource; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/giveu/springcloud/mjf/provider/config/DataSource.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]]
+2018-03-16 15:23:40.451 INFO  [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8673 (http)
+2018-03-16 15:23:40.452 INFO  [restartedMain] o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2018-03-16 15:23:40.452 INFO  [restartedMain] o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-03-16 15:23:40.459 INFO  [localhost-startStop-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2018-03-16 15:23:40.461 INFO  [localhost-startStop-1] o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 218 ms
+2018-03-16 15:23:40.481 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 15:23:40.482 INFO  [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-16 15:23:40.686 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@250e9293: startup date [Fri Mar 16 15:23:40 CST 2018]; root of context hierarchy
+2018-03-16 15:23:40.690 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public java.lang.String org.giveu.springcloud.mjf.provider.controller.UserController.index()
+2018-03-16 15:23:40.690 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.util.List<org.giveu.springcloud.mjf.provider.model.User> org.giveu.springcloud.mjf.provider.controller.UserController.hello()
+2018-03-16 15:23:40.691 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 15:23:40.692 INFO  [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 15:23:40.696 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 15:23:40.696 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 15:23:40.701 INFO  [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 15:23:40.724 WARN  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer:62 - Unable to start LiveReload server
+2018-03-16 15:23:40.749 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-03-16 15:23:40.749 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-16 15:23:40.749 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-03-16 15:23:40.750 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter:671 - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-03-16 15:23:40.751 INFO  [restartedMain] o.s.j.e.a.AnnotationMBeanExporter:671 - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-03-16 15:23:40.754 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8673"]
+2018-03-16 15:23:40.754 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8673"]
+2018-03-16 15:23:40.755 INFO  [restartedMain] o.a.tomcat.util.net.NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-03-16 15:23:40.758 INFO  [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8673 (http)
+2018-03-16 15:23:40.759 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:57 - Started SpringCloudProvier in 0.573 seconds (JVM running for 675.646)
+2018-03-16 15:23:40.759 INFO  [restartedMain] o.g.s.m.provider.SpringCloudProvier:15 - SpringCloudProvier start success
