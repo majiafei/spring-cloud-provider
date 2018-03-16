@@ -18,9 +18,9 @@ public class UserController {
 	@Autowired
 	private UserMapper userMapper;
 	
-	@Autowired
-	BeetlGroupUtilConfiguration beetlGroupUtilConfiguration;
 	
+	@Value("${spring.mvc.view.prefix}")
+	private String prefix;
 	@RequestMapping("/hello")
 	@ResponseBody
 	public List<User> hello(){
