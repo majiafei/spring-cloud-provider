@@ -15,6 +15,5 @@ public class SpringCloudProvier {
 		logger.info("SpringCloudProvier start success");
 	}
 	
-	
 
 }
